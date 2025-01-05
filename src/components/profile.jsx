@@ -10,10 +10,12 @@ export default function Profile() {
           data-aos-easing="fade-down"
           data-aos-duration="1000"
         >
-          <h4 className="text-secondary mb-3">Awesome Skill</h4>
+          <h4 className="text-secondary mb-3">Technical Skill</h4>
           <h2 className="text-gradient font-primary max-w-[700px] mx-auto text-[24px]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            harum animi suscipit odio eos reprehenderit, culpa optio nam numquam
+            Here are some of the technical and soft skills I have developed over
+            time, ranging from web development to IT support. These skills have
+            been honed through academic projects, internships, and personal
+            learning.
           </h2>
         </div>
         <div className="flex flex-col lg:flex-row items-start justify-between">
@@ -40,18 +42,15 @@ export default function Profile() {
             data-aos-easing="fade-down"
             data-aos-duration="1000"
           >
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 text-center ">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 text-center ">
               <div className="w-full">
                 <div className="bg-white h-full justify-center items-center flex rounded-lg overflow-hidden relative p-5 group">
-                  <img src="/images/1.png" alt="" />
+                  <img src="/images/javaskrip.png" alt="" />
                   <div className="absolute p-5 backdrop-blur-xl bg-primary w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linear">
                     <div className="text-center w-full text-white">
                       <div className="bg-white rounded-full px-5 py-2 inline-block mb-2">
-                        <h4 className="text-gradient">jquery</h4>
+                        <h4 className="text-gradient">Javascript</h4>
                       </div>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </p>
                     </div>
                   </div>
                 </div>
@@ -62,26 +61,8 @@ export default function Profile() {
                   <div className="absolute p-5 backdrop-blur-xl bg-primary w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linear">
                     <div className="text-center w-full text-white">
                       <div className="bg-white rounded-full px-5 py-2 inline-block mb-2">
-                        <h4 className="text-gradient">jquery</h4>
+                        <h4 className="text-gradient">Bootstraps</h4>
                       </div>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full">
-                <div className="bg-white h-full justify-center items-center flex rounded-lg overflow-hidden relative p-5 group">
-                  <img src="/images/3.png" alt="" />
-                  <div className="absolute p-5 backdrop-blur-xl bg-primary w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linear">
-                    <div className="text-center w-full text-white">
-                      <div className="bg-white rounded-full px-5 py-2 inline-block mb-2">
-                        <h4 className="text-gradient">jquery</h4>
-                      </div>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </p>
                     </div>
                   </div>
                 </div>
@@ -92,41 +73,56 @@ export default function Profile() {
                   <div className="absolute p-5 backdrop-blur-xl bg-primary w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linear">
                     <div className="text-center w-full text-white">
                       <div className="bg-white rounded-full px-5 py-2 inline-block mb-2">
-                        <h4 className="text-gradient">jquery</h4>
+                        <h4 className="text-gradient">HTML 5</h4>
                       </div>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="w-full">
                 <div className="bg-white h-full justify-center items-center flex rounded-lg overflow-hidden relative p-5 group">
-                  <img src="/images/2.png" alt="" />
+                  <img src="/images/IT_SUPROT.jpg" alt="" />
                   <div className="absolute p-5 backdrop-blur-xl bg-primary w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linear">
                     <div className="text-center w-full text-white">
                       <div className="bg-white rounded-full px-5 py-2 inline-block mb-2">
-                        <h4 className="text-gradient">jquery</h4>
+                        <h4 className="text-gradient">IT SUPPORT</h4>
                       </div>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="w-full">
                 <div className="bg-white h-full justify-center items-center flex rounded-lg overflow-hidden relative p-5 group">
-                  <img src="/images/3.png" alt="" />
+                  <img src="/images/react.png" alt="" />
                   <div className="absolute p-5 backdrop-blur-xl bg-primary w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linear">
                     <div className="text-center w-full text-white">
                       <div className="bg-white rounded-full px-5 py-2 inline-block mb-2">
-                        <h4 className="text-gradient">jquery</h4>
+                        <h4 className="text-gradient">React.js</h4>
                       </div>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full">
+                <div className="bg-white h-full justify-center items-center flex rounded-lg overflow-hidden relative p-5 group">
+                  <img src="/images/php.png" alt="" />
+                  <div className="absolute p-5 backdrop-blur-xl bg-primary w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linear">
+                    <div className="text-center w-full text-white">
+                      <div className="bg-white rounded-full px-5 py-2 inline-block mb-2">
+                        <h4 className="text-gradient">PHP</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full">
+                <div className="bg-white h-full justify-center items-center flex rounded-lg overflow-hidden relative p-5 group">
+                  <img src="/images/laravel.png" alt="" />
+                  <div className="absolute p-5 backdrop-blur-xl bg-primary w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linear">
+                    <div className="text-center w-full text-white">
+                      <div className="bg-white rounded-full px-5 py-2 inline-block mb-2">
+                        <h4 className="text-gradient">Laravel</h4>
+                      </div>
                     </div>
                   </div>
                 </div>

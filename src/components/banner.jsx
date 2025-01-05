@@ -16,7 +16,7 @@ export default function Banner() {
                 // Same substring at the start will only be typed out once, initially
                 "Muhammad Ravil",
                 3000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Computer Enthusiast",
+                "IT Support",
                 3000,
                 "Web Developer",
                 3000,
@@ -30,10 +30,11 @@ export default function Banner() {
           </div>
         </div>
         <div className="max-w-[750px] text-center mx-auto mt-5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-          obcaecati quidem nostrum quae dolor suscipit nobis eveniet saepe
-          quaerat nam maiores cupiditate et aut facere tenetur soluta animi, at
-          distinctio?
+          an IT enthusiast focusing on web development and IT support. I have
+          experience in building user-friendly websites and managing technical
+          systems. With a passion for learning and solving problems, I aim to
+          create effective solutions that enhance productivity and user
+          experience.
         </div>
       </div>
     </div>

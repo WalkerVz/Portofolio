@@ -1,5 +1,5 @@
-import React, { useEffect } from "react"
-import { BsGithub, BsLinkedin } from "react-icons/bs"
+import React from "react"
+import { BsInstagram, BsWhatsapp, BsLinkedin } from "react-icons/bs"
 
 export default function Header() {
   return (
@@ -27,13 +27,22 @@ export default function Header() {
           data-aos-delay="0"
         >
           <a
-            href="https://github.com"
+            href="https://www.instagram.com/muhammadravil2/"
             target="_blank"
             rel="noopener noreferrer"
-            title="GitHub"
-            className="text-xl text-gray-700 hover:text-black transition"
+            title="Instagram"
+            className="text-xl text-pink-600 hover:text-pink-800 transition"
           >
-            <BsGithub />
+            <BsInstagram />
+          </a>
+          <a
+            href="https://wa.me/6281992589299"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="WhatsApp"
+            className="text-xl text-green-600 hover:text-green-800 transition"
+          >
+            <BsWhatsapp />
           </a>
           <a
             href="https://www.linkedin.com/in/muhammad-ravil-49a066319/"
