@@ -1,5 +1,5 @@
-import React from "react"
-import { BsInstagram, BsWhatsapp, BsLinkedin } from "react-icons/bs"
+import React from "react";
+import { BsInstagram, BsWhatsapp, BsLinkedin, BsEnvelope } from "react-icons/bs";
 
 export default function Header() {
   return (
@@ -30,7 +30,7 @@ export default function Header() {
             href="https://www.instagram.com/muhammadravil2/"
             target="_blank"
             rel="noopener noreferrer"
-            title="Instagram"
+            aria-label="Instagram"
             className="text-xl text-pink-600 hover:text-pink-800 transition"
           >
             <BsInstagram />
@@ -39,7 +39,7 @@ export default function Header() {
             href="https://wa.me/6281992589299"
             target="_blank"
             rel="noopener noreferrer"
-            title="WhatsApp"
+            aria-label="WhatsApp"
             className="text-xl text-green-600 hover:text-green-800 transition"
           >
             <BsWhatsapp />
@@ -48,13 +48,22 @@ export default function Header() {
             href="https://www.linkedin.com/in/muhammad-ravil-49a066319/"
             target="_blank"
             rel="noopener noreferrer"
-            title="LinkedIn"
+            aria-label="LinkedIn"
             className="text-xl text-blue-700 hover:text-blue-900 transition"
           >
             <BsLinkedin />
           </a>
+          <a
+            href="mailto:ravilmuhammad987@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Email"
+            className="text-xl text-red-600 hover:text-red-800 transition"
+          >
+            <BsEnvelope />
+          </a>
         </div>
       </div>
     </div>
-  )
+  );
 }

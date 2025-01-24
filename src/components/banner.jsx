@@ -20,6 +20,8 @@ export default function Banner() {
                 3000,
                 "Web Developer",
                 3000,
+                "Machine Learning",
+                3000
               ]}
               wrapper="span"
               cursor={true}
